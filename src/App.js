@@ -33,6 +33,7 @@ setSearch(e.target.value);
 }
  return(
   <div className ="App">
+        <h2>Search Recipe</h2>
     <form onSubmit = {getSearch} className="search-bar">
       <input className="search-field" type ="text" value={search} onChange={updateSearch}/>
       <button className="search-btn" type="submit">Search</button>
